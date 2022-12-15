@@ -5,11 +5,60 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mlaku-Rek</title>
-	<link rel="stylesheet" href="/">
+	<link rel="stylesheet" href="/styles/map.css">
 </head>
-<body>
-	<div id="map">
-
-	</div>
+<body id="top">
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="/team.html">
+					<p>
+						Mlaku <span>Rek!</span>
+					</p>
+				</a>
+			</div>
+			<ul>
+				<li><a href="/homepage.html">Home</a></li>
+				<li><a href="#top">Map</a></li>
+				<li><a href="/shop.html">Poin</a></li>
+				<li><a href="">Akun</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="content">
+			<div id="control">
+				<div class="box">
+					<p class="txt">
+						PILIH AKTIVITAS
+					</p>
+					<ion-icon id="kaki" class="icon" name="footsteps-sharp"></ion-icon>
+					<ion-icon id="sepede" class="icon" name="bicycle-sharp"></ion-icon>
+					<br>
+					<input id="tujuan" type="text" placeholder="Masukan Tujuan...">
+					<p class="txt">
+						ATAU
+					</p>
+					<button>
+						BERKELILING BEBAS
+					</button>
+					<p class="poin">
+						<span>&#x2764</span> 85-102
+					</p>
+				</div>
+				<div class="go">
+					<p>
+						GO!
+					</p>
+				</div>
+			</div>
+			<div id="mapCont">
+				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.4473140120467!2d112.61218671477914!3d-7.952640294271897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78827f2d620975%3A0xf19b7459bbee5ed5!2sBrawijaya%20University!5e0!3m2!1sen!2sid!4v1671111010805!5m2!1sen!2sid" width="1020px" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+			</div>
+		</div>
+	</main>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

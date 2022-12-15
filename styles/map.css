@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,700&display=swap');
 
-:root {
-	--gradLeft: #E45DD7;
-	--gradMid: #B38BF0;
-	--gradRight: #83D2FF;
-	--primary: #F671A1;
-	--secondary: #5D9EC2;
-}
-
 * {
 	font-family: 'Poppins';
 	color: white;
@@ -22,5 +14,150 @@ html {
 }
 
 body {
-	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	background: linear-gradient(to bottom, #e09bc6, #9bc9f7);
+}
+
+nav {
+	position: sticky;
+	top: 30px;
+	background-color: #AC6CDF;
+	padding: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .21);
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	border-radius: 150px;
+	z-index: 9;
+}
+
+header {
+	display: inline;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.logo p {
+	width: 100px;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 40px;
+	padding-right: 100px;
+}
+
+.logo span {
+	letter-spacing: 7px;
+}
+
+nav ul {
+	text-align: right;
+	margin-top: -60px;
+}
+
+nav li {
+	text-align: center;
+	display: inline;
+	text-decoration: none;
+	margin-right: 100px;
+	font-size: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	transition: font-weight .3s;
+	transition: .25s;
+}
+
+nav a:hover {
+	color: rgb(209, 209, 209);
+}
+
+#content {
+	display: flex;
+	gap: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#control {
+	display: flex;
+	flex-direction: column;
+}
+
+.txt {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.box {
+	text-align: center;
+	background: linear-gradient(to bottom, #ec97c1, #a7a0eb);
+	border-radius: 24px;
+	padding: 10px 15px;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.213);
+}
+
+.icon {
+	font-size: 50px;
+	background: #69616a2f;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+#kaki {
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+#tujuan {
+	background: #69616a2f;
+	border: none;
+	padding: 10px 14px;
+	border-radius: 25px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+::placeholder {
+	color: white;
+	font-size: 14px;
+}
+
+button {
+	background: #69616a2f;
+	border: none;
+	padding: 10px 14px;
+	border-radius: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.poin {
+	font-size: 25px;
+}
+
+.go {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.go p {
+	display: inline;
+	font-size: 30px;
+	font-weight: 600;
+	background: #69616a4d;
+	padding: 20px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.213);
+	cursor: pointer;
+}
+
+#map {
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.213);
 }
