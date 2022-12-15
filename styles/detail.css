@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,700&display=swap');
+
+:root {
+	--gradLeft: #97c0f4;
+	--gradRight: #e18ee0;
+	--primary: #F671A1;
+	--secondary: #4BBEFF;
+}
+
+* {
+	font-family: 'Poppins';
+	color: white;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: linear-gradient(to right, #C975F1, #9FF0E2);
+}
+
+nav {
+	background-color: #AC6CDF;
+	padding: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .21);
+	position: sticky;
+	top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 150px;
+	z-index: 9;
+}
+
+header {
+	display: inline;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.logo p {
+	width: 100px;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 40px;
+	padding-right: 100px;
+}
+
+.logo span {
+	letter-spacing: 7px;
+}
+
+nav ul {
+	text-align: right;
+	margin-top: -60px;
+}
+
+nav li {
+	text-align: center;
+	display: inline;
+	text-decoration: none;
+	margin-right: 100px;
+	font-size: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	transition: font-weight .3s;
+	transition: .25s;
+}
+
+nav a:hover {
+	color: rgb(209, 209, 209);
+}
+
+h3 {
+	margin-top: 30px;
+}
+
+img {
+	z-index: 7;
+}
+
+.content {
+	display: flex;
+	margin-top: 30px;
+	margin-left: 147px;
+}
+
+.detail_info {
+	background-color: #b193db;
+	margin-top: 2px;
+	width: 800px;
+	height: 400px;
+	padding: 16px;
+	padding-left: 90px;
+	margin-left: -60px;
+	border-radius: 65px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.216);
+}
+
+.convert {
+	display: flex;
+	/* align-items: center;
+	justify-content: center; */
+	position: absolute;
+	right: 100px;
+	background: #9a75e9c9;
+	border-radius: 30px;
+	padding: 16px 16px 0px 16px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.216);
+}
+
+.info {
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.poin {
+	margin-top: -20px;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+hr {
+	border-width: 2px;
+}
+
+.harga {
+	font-weight: 600;
+}
+
+.button {
+	margin-top: 5px;
+	background: #BF92E1;
+	padding: 5px;
+	height: 70px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.216);
+	cursor: pointer;
+	transition: .3s;
+}
+
+.button:hover {
+	background: #a467d4;
+	transform: translateY(-5px);
+}
+
+.button:active {
+	box-shadow: none;
+	transform: translateY(5px);
+}

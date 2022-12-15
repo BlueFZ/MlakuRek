@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap');
+
+:root {
+	--primary: #8499cd;
+	--secondary: #e696c4;
+	--but_col1: #999af6;
+	--but_col2: #d4a3fe;
+}
+
+* {
+	font-family: 'Poppins';
+	color: white;
+}
+
+body {
+	background-image: linear-gradient(to right, var(--secondary), var(--primary));
+}
+
+header {
+	display: flex;
+}
+
+.info {
+	flex-grow: 1;
+}
+
+.anim {
+	flex-grow: 1;
+	margin-top: 60px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.welcome {
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.judul {
+	width: 500px;
+	font-weight: bolder;
+	font-size: 50px;
+	margin-left: 100px;
+	margin-top: 0px;
+}
+
+.text {
+	margin-top: -40px;
+	width: 500px;
+	font-size: 25px;
+	margin-left: 100px;
+}
+
+img {
+	max-width: 434px;
+	flex-grow: 1;
+	animation: anime 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes anime {
+	100% {
+		transform: translateY(25px);
+		/* -webkit-transform: translateY(20px);
+		-moz-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		-o-transform: translateY(20px); */
+	}
+}
+
+input {
+	border: none;
+	background-image: linear-gradient(to right, var(--but_col1), var(--but_col2));
+	font-size: 30px;
+	font-weight: bold;
+	padding: 7px 20px;
+	letter-spacing: 5px;
+	border-radius: 15px;
+	margin-left: 100px;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .21);
+	transition: transform .25s, background-image .1s;
+}
+
+input:hover {
+	transform: translateY(-5px);
+}
+
+input:active {
+	box-shadow: none;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		background-image: linear-gradient(to right, var(--secondary), var(--primary));
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	.title {
+		margin-left: 10px;
+	}
+
+	.judul {
+		margin-left: 10px;
+		font-size: 100%;
+		width: 100%;
+	}
+
+	.text {
+		margin-left: 10px;
+		font-size: 100%;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.anim {
+		margin-top: 60px;
+		margin-left: 100px;
+	}
+
+	input {
+		margin-left: 0px;
+	}
+
+	img {
+		width:75%;
+	}
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,700&display=swap');
+
+:root {
+	--primary: #b56dde;
+	--secondary: #9dc4b9;
+}
+
+* {
+	font-family: 'Poppins';
+	color: white;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+body {
+	/* background-image: linear-gradient(to right, var(--primary), var(--secondary)); */
+	text-align: center;
+	background-image: url(/asset/login/LOGIN.png);
+}
+
+img {
+	background-image: none;
+}
+
+.form{
+	margin-top: -50px;
+	display: inline-block;
+}
+
+.link {
+	display: inline-block;
+}
+
+.sign {
+	font-weight: bold;
+	font-size: 77px;
+	text-align: center;
+	margin-top: 88px;
+}
+
+::placeholder {
+	color: white
+}
+
+.input {
+	width: 300px;
+	display: block;
+	color: white;
+	border: none;
+	margin-bottom: 15px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	background-color: rgba(21, 25, 28, 0.18);
+	font-size: 15px;
+}
+
+.show_pass {
+	position: absolute;
+	left: 59%;
+	transform: translate(0, -50%);
+	top: 47.5%;
+	cursor: pointer;
+	font-size: 21px;
+	color: white;
+	transition: color .2s;
+}
+
+.show_pass:hover {
+	color: rgb(187, 187, 187);
+}
+
+.forget {
+	display: inline;
+	margin-top: -10px;
+	font-weight: 200;
+	margin-left: 180px;
+	text-decoration: none;
+}
+
+.container {
+	display: block;
+	color: white;
+	border: none;
+	margin-bottom: 15px;
+}
+
+.but {
+	display: block;
+	width: 250px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	background-color: #be86bc;
+	border: none;
+	font-size: 15px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .21);
+	cursor: pointer;
+	transition: transform .25s, box-shadow .2s;
+}
+
+.but:hover {
+	transform: translateY(-5px);
+}
+
+.but:active {
+	box-shadow: none;
+}
+
+.atau {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-weight: 200;
+}
+
+@media screen and (max-width: 460px) { 
+	main {
+		width: 100%;
+		height: 100%;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.show_pass {
+		top: 10%;
+	}
+}
