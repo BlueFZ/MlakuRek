@@ -110,6 +110,19 @@ nav a:hover {
 #kaki {
 	margin-top: 15px;
 	margin-right: 15px;
+	transition: .25s;
+}
+
+#kaki:hover {
+	transform: translateY(-5px)
+}
+
+#sepeda {
+	transition: .25s;
+}
+
+#sepeda:hover {
+	transform: translateY(-5px)
 }
 
 #tujuan {
@@ -134,7 +147,13 @@ button {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 100%;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.213);
 	cursor: pointer;
+	transition: .25s;
+}
+
+button:hover {
+	transform: translateY(-5px);
 }
 
 .poin {
@@ -144,9 +163,14 @@ button {
 .go {
 	margin-top: 40px;
 	text-align: center;
+	transition: .25s;
 }
 
-.go p {
+.go:hover {
+	transform: translateY(-5px);
+}
+
+.goTxt {
 	display: inline;
 	font-size: 30px;
 	font-weight: 600;
