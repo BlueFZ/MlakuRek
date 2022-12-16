@@ -160,3 +160,20 @@ hr {
 	box-shadow: none;
 	transform: translateY(5px);
 }
+
+::-webkit-scrollbar {
+	width: 8px;
+	
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 100px;
+	background-color: rgba(255, 255, 255, 0.385);
+	border-radius: 100px;
+	
+}
+
+::-webkit-scrollbar-thumb {
+	background: #a28dc8;
+	border-radius: 100px;
+}
