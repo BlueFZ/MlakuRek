@@ -291,3 +291,17 @@ img {
 a {
 	text-decoration: none;
 }
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ab6cdfa5;
+	margin-block: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #97bff46d;
+	border-radius: 100px;
+}

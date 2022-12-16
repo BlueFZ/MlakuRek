@@ -49,11 +49,11 @@ function iconAction(icon) {
 		}
 	}	else if(icon ==='.goTxt') {
 		if(!cond3) {
-			alert('Tracking is on')
+			alert('Tracker is On')
 			go.style.background= '#ECB9F4'
 			cond3= true
 		} else {
-			alert('Tracking is off')
+			alert('Tracking is Off')
 			go.style.background= '#69616a2f'
 			cond3= false
 		}
